@@ -1,0 +1,11 @@
+If you want to change any of these, 1 is on, 0 is off.
+Note that Anti-Ban needs you to run Desire X as an Admin.
+Anti-Ban likely won't work.
+
+{
+    topmost:1,
+    antiban:0,
+    autoexec:0,
+    autoattach:0,
+    exitwindow:1,
+}
