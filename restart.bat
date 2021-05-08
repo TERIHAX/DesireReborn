@@ -1,2 +1,2 @@
 sleep 1
-start "" "Desire X.exe"
+start "" "Desire Reborn.exe"
