@@ -4,3 +4,15 @@ getgenv().DesireReborn = true
 getgenv().hookfunction = function(func, func_)
     func = func_
 end
+
+getgenv().hookfunc = function(func, func_)
+    func = func_
+end
+
+getgenv().connectfunction = function(func, func_)
+    func = func_
+end
+
+getgenv().connectfunc = function(func, func_)
+    func = func_
+end
