@@ -5,11 +5,27 @@ getgenv().hookfunction = function(func, func_)
     func = func_
 end
 
+getgenv().hookfunctions = function(func, func_)
+    func = func_
+end
+
 getgenv().hookfunc = function(func, func_)
     func = func_
 end
 
+getgenv().hookfuncs = function(func, func_)
+    func = func_
+end
+
 getgenv().connectfunction = function(func, func_)
+    func = func_
+end
+
+getgenv().connectfunctions = function(func, func_)
+    func = func_
+end
+
+getgenv().connectfuncs = function(func, func_)
     func = func_
 end
 
