@@ -32,3 +32,7 @@ end
 getgenv().connectfunc = function(func, func_)
     func = func_
 end
+
+getgenv().loadtext = function(url)
+    loadstring(game:HttpGet(url))()
+end
