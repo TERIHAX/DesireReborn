@@ -6,6 +6,14 @@ getgenv().hookfunction = function(func, func_)
 end
 --]]
 
+getgenv().getniggaballs = function()
+    return "No Nigga Balls Found."
+end
+
+getgenv().getnigganuts = function()
+    return "No Nigga Nuts Found."
+end
+
 -- Switch case gotten from here: https://wearedevs.net/forum/t/21348
 getgenv().switch = function(E)
 	return function (L)
