@@ -14,6 +14,14 @@ getgenv().getnigganuts = function()
     return "No Nigga Nuts Found."
 end
 
+local console =
+{
+	write = print,
+    print = print,
+    warn = warn,
+    writeline = print    
+}
+
 -- Switch case gotten from here: https://wearedevs.net/forum/t/21348
 getgenv().switch = function(E)
 	return function (L)
